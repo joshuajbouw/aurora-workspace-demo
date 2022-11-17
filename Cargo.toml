@@ -1,0 +1,17 @@
+[package]
+name = "aurora-workspace-demo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joshua J. Bouw <hi@jjb.rs>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aurora-workspace = { git = "https://github.com/aurora-is-near/aurora-workspace.git", rev = "e192c4b152826263499380ba2917cb4ee5946c91" }
+workspaces = { git = "https://github.com/near/workspaces-rs.git", rev = "34bb786470700c7f95b0c88201a58b8792b6dba1" }
+ethabi = "18.0.0"
+hex = "0.4.3"
+ethereum-types = "0.13.1"
+ethereum-tx-sign = "6.0.1"
+anyhow = "1"
+tokio = "1.21.2"
